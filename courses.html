@@ -1,0 +1,524 @@
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		
+		<title>Shanka Educational Academy</title>
+			
+		<meta charset="utf-8">
+		<meta name="language" content="en-us"/>  
+		<meta http-equiv="Content-Type" content="text/html" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="distribution" content="Global" />
+		<meta http-equiv="Cache-control" content="public">
+		<meta name="robots" content="index, follow" />
+		
+		<meta name="copyright" content="Shanka Educational Academy"/>
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<meta name="description" content="Shanka Educational Academy is delighted to present this proposal for our comprehensive training  programs with a unique 100% placement assistance guarantee. We have a proven track  record of empowering individuals with the skills and knowledge needed to excel in their  careers. ">
+		<meta name="keywords" content="SHANKA,Career,Academy,Training, admission, study materials, facilities, students, contact" />
+		<meta name="author" content="RajkumarVasan">
+		<meta name="email" content="hr.shankaacademy.com">
+		
+		<meta property="og:type" content="website" /> 
+		<meta property="og:title" content="Shanka Educational Academy" />
+		<meta property="og:description" content="Our academy will cater to a diverse range of individuals, including recent graduates, career  changers, and those seeking to upskill or reskill to meet changing job market demands. " />
+		<meta property="og:site_name" content="Shanka Educational Academy" />
+		
+		
+		
+		<meta itemprop="name" content="Shanka Educational Academy">
+		
+		<link rel="shortcut icon" href="./images/logo.png" type="image/png" />
+			
+		<!--css-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+		<link rel="stylesheet" href="css/ken-burns.css" type="text/css" media="all" />
+		<link rel="stylesheet" href="css/animate.min.css" type="text/css" media="all" />
+		<!--css-->
+		
+		<!--google fonts-->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
+		<!-- google fonts-->
+		<script>
+			function showCourse(courseName) {
+				var allCourses = document.querySelectorAll('h4[id]');
+				allCourses.forEach(function(course) {
+					if (course.id === courseName) {
+						course.style.display = 'block';
+					} else {
+						course.style.display = 'none';
+					}
+				});
+			}
+	
+			// Get the search query from the URL and show the corresponding course
+			window.addEventListener('load', function() {
+				var urlParams = new URLSearchParams(window.location.search);
+				var course = urlParams.get('course');
+				if (course) {
+					showCourse(course);
+				}
+			});
+		</script>
+		<script src="./js/script.js"></script>
+		</head>
+		<style>
+			
+
+        .course-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+			
+        }
+
+        .course {
+            width: calc(33.33% - 20px); /* Adjusted width with margin */
+            margin: 0 10px 20px 0; /* Set margin to create space between courses */
+            border: 2px solid #fff;
+            padding: 10px;
+            box-sizing: border-box;
+            opacity: 0; /* Set initial opacity to 0 for fade-in effect */
+            animation: fadeIn 1s ease-in-out forwards; /* Animation properties */
+            transition: transform 0.3s ease-in-out; /* Transition for the hover effect */
+			color: #fff;
+        }
+		.course:hover {
+            transform: scale(1.05); /* Scale up by 5% on hover */
+        }
+		@keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+
+        .course img {
+            width: 100%;
+            height: 250px; /* Set a specific height for the image container */
+            object-fit: cover; /* Maintain aspect ratio and cover the container */
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 30px; /* Adjust font size for course titles */
+            margin-bottom: 10px;
+			font-weight: bolder;
+			color: #fff;
+        }
+		p{
+			font-size: 20px; /* Adjust font size for course titles */
+            margin-bottom: 10px;
+			color: #fff;
+			
+
+		}
+
+        .lesson-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .lesson-list li {
+            font-size: 25px; /* Adjust font size for lesson items */
+            margin-bottom: 5px;
+			margin-left: 15px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .course {
+                width: calc(48% - 20px); /* Adjusted width with margin for smaller screens */
+            }
+			h2 {
+            font-size: 20px; /* Adjust font size for course titles */
+            margin-bottom: 10px;
+        }
+		.lesson-list li {
+            font-size: 18px; /* Adjust font size for lesson items */
+            margin-bottom: 5px;
+        }
+		p{
+			font-size: 20px; /* Adjust font size for course titles */
+            margin-bottom: 10px;
+			
+
+		}
+			
+        }
+
+        @media screen and (max-width: 576px) {
+            .course {
+                width: 100%;
+            }
+			h2 {
+            font-size: 20px; /* Adjust font size for course titles */
+            margin-bottom: 10px;
+        }
+        }
+		</style>
+	<body>
+	<!--header-->
+		<div class="header" id="top">
+		
+				<nav class="navbar navbar-default">
+					
+				        
+                    <div class="navbar-header">
+                    <img src="./images/about logo - Copy.jpg" class="logo">
+                       <a href="index.html"><img src="./images/logoname.jpg" alt="SHANKA Educational Academy Logo" class="logoname"></a>
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>				  
+                        
+                    </div>
+
+            <!-- nav bar collapse -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <nav class="link-effect-2" id="link-effect-2">
+                            <ul class="nav navbar-nav">
+                                <li ><a href="index.html"><span data-hover="HOME">HOME</span></a></li>
+                                <li><a href="about.html"><span data-hover="ABOUT">ABOUT</span></a></li>
+                                <li class="active"><a href="courses.html"><span data-hover="Courses">Courses</span></a></li>
+								<li><a href="gallery.html"><span data-hover="Gallery">Gallery</span></a></li>	
+                                <li><a href="admission.html"><span data-hover="Admission">Admission</span></a></li>
+                                <li><a href="contact.html"><span data-hover="Contact">Contact</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                
+            </nav>
+			
+		</div>
+	<!--header-->
+	<header>
+        
+        <img src="./images/Bannercourse.jpg" alt="Banner"  class="tamil">
+    </header>
+		<div class="clearfix"></div>
+<div class="background-course" style="background-image: url('./images/bg1.jpg');">
+		<div class="content">
+			<div class="courses-w3ls" >
+				<div class="container">
+					<h2 class="tittle" style="color: #fff;">Courses </h2>
+					
+
+                </div>
+			</div>
+		</div>	
+        <div class="course-container">
+			<div class="course">
+				<img src="./images/accounting.jpg" alt="Course 5 Image">
+				<h2 align="center">Diploma in Office Accounting</h2>
+				<br>
+				<p align="center"> Dive into the Diploma in Office Accounting, mastering essential skills for effective financial management in office environments. </p>
+				<br>
+				<ul class="lesson-list">
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Windows</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> MS Word</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> MS Excel</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> MS Powerpoint</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Internet</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Tally</li>
+					
+					
+				</ul>
+			</div>
+			<div class="course">
+				<img src="./images/tally.jpg" alt="Course 3 Image">
+				<h2 align="center">Tally with Taxation</h2>
+				<br>
+				<p align="center"> Master Tally with Taxation in this concise course, gaining expertise in software and taxation for seamless financial management </p>
+				<br>
+				<ul class="lesson-list">
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Principle of Accounts</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Basic Accounting</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Masters</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Accounting Vouchers</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Advance Accounting</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Advance Inventory</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> GST Introduction</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i>Structure of GST</li>
+					
+				</ul>
+			</div>
+			<div class="course">
+				<img src="./images/gst.jpg" alt="Course 4 Image">
+				<h2 align="center">Structure of GST & Filing</h2>
+				<br>
+				<p align="center"> Unlock the GST's structure and filing intricacies in this concise course, mastering essential skills for seamless compliance. </p>
+				<br>
+				<ul class="lesson-list" >
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> TDS</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> TCS</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> PF & ESI</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Internal Auditing</li>
+					
+				</ul>
+			</div>
+			
+	
+			
+			
+	
+			<!-- Repeat the above course divs for additional rows -->
+			
+		</div>
+		<div class="course-container">
+			<div class="course">
+				<img src="./images/dca.jpg" alt="Course 2 Image">
+				<h2 align="center">Master Diploma in Computer Application</h2>
+				<br>
+				<p align="center"> Excel in the Master Diploma in Computer Application, gaining comprehensive skills for proficient computer use and application across various domains. </p>
+				<br>
+				<ul class="lesson-list">
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Windows</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> MS Word</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> MS Excel</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> MS Powerpoint</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Internet</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> C Programming</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Core basics and Java</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> My SQL</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> HTML</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Python</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Type Writing</li>
+					
+				</ul>
+			</div>
+			<div class="course">
+				<img src="./images/computer.jpg" alt="Course 1 Image">
+				<h2 align="center">Computer Basics and Type Writing</h2>
+				
+				<h2 align="center">( School Students )</h2>
+				<p align="center"> Empower school students with essential computer basics and typing skills through this foundational course for a tech-savvy future. </p>
+				<br>
+				<ul class="lesson-list" >
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> MS Word</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> MS Excel</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> MS Powerpoint</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Internet</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Type Writing</li>
+					
+				</ul>
+			</div>
+			
+	
+			
+			<div class="course">
+				<img src="./images/spokenb.jpg" alt="Course 6 Image">
+				<h2 align="center">Spoken English ( Beginners Level )</h2>
+				<br>
+				<p align="center"> Embark on the journey of spoken English at the beginners' level, enhancing language skills for effective communication and confidence building. </p>
+				<br>
+				<ul class="lesson-list">
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Basic Conversation Skills</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Vocabulary Building</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Grammer Fundamentals</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Listening and Pronunciation</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Role - Play & Scenarios</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Writing Skills</li>
+					
+					
+				</ul>
+			</div>
+	
+			<!-- Repeat the above course divs for additional rows -->
+			
+		</div>
+		<div class="course-container">
+			<div class="course">
+				<img src="./images/spokena.jpg" alt="Course 4 Image">
+				<h2 align="center">Spoken English ( Advanced Level )</h2>
+				<br>
+				<p align="center"> Elevate your communication prowess with the Spoken English Advanced Level course, refining language fluency and mastering nuanced expressions for professional and personal success. </p>
+				<br>
+				<ul class="lesson-list" >
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Advanced Vocabulary and Idions</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Advanced Grammer and Syntax</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Business English</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Debates and Public Speaking</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Literary and Media Analysis</li>
+					
+				</ul>
+			</div>
+	
+			<div class="course">
+				<img src="./images/french.jpg" alt="Course 5 Image">
+				<h2 align="center">French Lessons</h2>
+				<br>
+				<p align="center"> Immerse yourself in French lessons, unlocking language proficiency and cultural insights through a dynamic and engaging learning experience.  </p>
+				<br>
+				<ul class="lesson-list">
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Vocabulary</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Grammer</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Conersational</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Reading</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Speaking</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Listening</li>
+					
+					
+				</ul>
+			</div>
+			<div class="course">
+				<img src="./images/hindi.jpg" alt="Course 6 Image">
+				<h2 align="center">Spoken Hindi</h2>
+				<br>
+				<p align="center"> Refine your spoken Hindi through immersive lessons, enhancing language fluency and cultural understanding for effective communication. </p>
+				<br>
+				<ul class="lesson-list">
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Hindi Grammer</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Pronuniciation</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Conversation</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Vocabulary</li>
+					<li><i class="glyphicon glyphicon-plus-sign"> </i> Certificate Level Courses</li>
+					
+					
+				</ul>
+			</div>
+			</div>
+			<div class="course-container">
+		
+				<div class="course">
+					<img src="./images/course8.png" alt="Course 5 Image">
+					<h2 align="center">Comprehensive Career Development</h2>
+					<br>
+					<p align="center"> Embark on comprehensive career development, acquiring essential skills and strategies for professional growth and success in diverse industries. </p>
+					<br>
+					<ul class="lesson-list">
+						<li><i class="glyphicon glyphicon-plus-sign"> </i> Communication Skills</li>
+						<li><i class="glyphicon glyphicon-plus-sign"> </i> Resume Building</li>
+						<li><i class="glyphicon glyphicon-plus-sign"> </i> Job Search Strategies</li>
+						<li><i class="glyphicon glyphicon-plus-sign"> </i> Mock Interviews</li>
+						<li><i class="glyphicon glyphicon-plus-sign"> </i> Business Communication</li>
+						<li><i class="glyphicon glyphicon-plus-sign"> </i> Business Ethics</li>
+						<li><i class="glyphicon glyphicon-plus-sign"> </i> Creativity Skills</li>
+						<li><i class="glyphicon glyphicon-plus-sign"> </i> Presentation Skills</li>
+						<li><i class="glyphicon glyphicon-plus-sign"> </i> Group Dicussion</li>
+						
+						
+					</ul>
+				</div>
+				<div class="course">
+					<img src="./images/dm.jpg" alt="Course 6 Image">
+					<h2 align="center">Digital Marketing</h2>
+					<br>
+					<p align="center"> Explore the dynamic world of digital marketing, gaining expertise in online strategies and tools for effective brand promotion and business growth </p>
+					<br>
+					<ul class="lesson-list">
+						<li><i class="glyphicon glyphicon-plus-sign"> </i> Marketing Techniques</li>
+						<li><i class="glyphicon glyphicon-plus-sign"> </i> Digital Marketing</li>
+						<li><i class="glyphicon glyphicon-plus-sign"> </i> SEO Optimization</li>
+						<li><i class="glyphicon glyphicon-plus-sign"> </i> Social Media Optimization</li>
+						<li><i class="glyphicon glyphicon-plus-sign"> </i> Online Repution Management</li>
+						<li><i class="glyphicon glyphicon-plus-sign"> </i> Content Marketing</li>
+						<li><i class="glyphicon glyphicon-plus-sign"> </i> Management Techniques</li>
+						<li><i class="glyphicon glyphicon-plus-sign"> </i> Tools & Techniques</li>
+						<li><i class="glyphicon glyphicon-plus-sign"> </i> Results Tracking</li>
+						<li><i class="glyphicon glyphicon-plus-sign"> </i> Digital Marketing Opportunity</li>
+						
+						
+					</ul>
+				</div>
+				<div class="course">
+					
+				</div>
+		</div>
+	</div>
+	
+		<!--content-->
+		<!--footer-->
+		<div class="background-container4" style="background-image: url('./images/bg1.jpg');">
+		<div class="footer-w3">
+            <h3 class="tittle" style="font-family:'Roboto'; color: #007BFF;font-size: 25px; font-weight:bold;"> <span style="color: white;">100% Placement Assistance</span></h3>
+                <br>
+                <br>
+                <div class="container" style="display: flex; justify-content: center;  " >
+                    <div class="footer-grids" style="display: flex; justify-content: space-between; width: 80%; margin-right: 5px;">
+                      <div class="col-md-4 footer-grid" style="flex: 0 0 calc(50% - 10px); margin: 5px; ">
+                        <p align="left"> Our placement assistance program includes: </p>
+                        <ul class="grid-part">
+                          <li><i class="glyphicon glyphicon-ok-sign"> </i>Resume Building </li>
+                          <li><i class="glyphicon glyphicon-ok-sign"> </i>Interview Preparation </li>
+                          <li><i class="glyphicon glyphicon-ok-sign"> </i>Job Search Support </li>
+                          <li><i class="glyphicon glyphicon-ok-sign"> </i>Industry Connections </li>
+                        </ul>
+                      </div>
+                <br>
+                <div class="col-md-4 footer-grid" >
+                    
+                  </div>
+                <br>
+                      <div class="col-md-4 footer-grid" style="flex: 0 0 calc(50% - 10px); margin: 5px; ">
+                        <p align="left">Services Offered: </p>
+                        <ul class="grid-part">
+                          <li><i class="glyphicon glyphicon-ok-sign"> </i>Professional Development </li>
+                          <li><i class="glyphicon glyphicon-ok-sign"> </i>Certification Programs </li>
+                          <li><i class="glyphicon glyphicon-ok-sign"> </i>Career-Ready Skills </li>
+                          <li><i class="glyphicon glyphicon-ok-sign"> </i>Job-Specific Training </li>
+                          <li><i class="glyphicon glyphicon-ok-sign"> </i>Placement Assistance </li>
+                        </ul>
+                        <div class="clearfix"> </div>
+                      </div>
+                    </div>
+                  </div>
+        </div>
+	</div>
+        <div class="contact-section" style="text-align: center; margin: 20px;">
+            <h2 style="font-size: 50px; color: #000;">Contact Us</h2>
+            <p style="font-size: 20px; color: #000;"><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+91 9345702226</p>
+            <p style="font-size: 20px; color: #000;"><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:enquiry@shankaacademy.com"> enquiry@shankaacademy.com</a></p>
+            <p style="font-size: 20px; color: #000;"> <i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i> No:10/a, Jamaliya Nagar, Perambur, Chennai:600012</p>
+          </div>
+        
+    <!--footer-->	
+    
+    <!-- Social icons and credits -->
+        <div class="copy-section">
+            <div class="container">
+                <div class="iconup">
+                    <a href="#top"><i class="glyphicon glyphicon-chevron-up iconup" aria-hidden="true"></i>TOP</a></div>
+                <div class="social-icons">
+                    <div class="social-icons">
+                    <a href="#" target='_blank'><i class="icon1"></i></a>
+                    <a href="https://instagram.com/shankaacademy?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr" target="_blank"><i class="icon2"></i></a>
+                    <a href="mailto:enquiry@shankaacademy.com" target="_blank"><i class="icon3"></i></a>
+                    <a href="https://www.linkedin.com/company/shanka-educational-academy/" target="_blank"><i class="icon4"></i></a>
+                </div>
+                </div>
+				<div class="copy">
+					<p>&copy; Designed & Developed by <a href="https://www.linkedin.com/in/sadiqshaik123/" target="_blank">Sadiq</a></p>
+				</div>
+            </div>
+        </div>
+        <button id="scroll-down-button" onclick="scrollDown()"> <i class="glyphicon glyphicon-chevron-down iconup" aria-hidden="true"></i></button>
+        <a href="https://api.whatsapp.com/send?phone=9345702226" target="_blank">
+            <img src="./images/WhatsApp_icon.png" alt="WhatsApp" class="whatsapp-logo">
+        </a>
+			<!---credits--->
+    
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+<!--smooth scrollig-->
+<script>
+	
+	function scrollDown() {
+		window.scrollBy(0, window.innerHeight);
+	}
+</script>
+
+
+</body>
+
+</html>
