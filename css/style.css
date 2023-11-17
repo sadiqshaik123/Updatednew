@@ -294,7 +294,10 @@ nav a:focus {
     padding-top: 1em;
     padding-bottom: 0.5em;
     background-image: url('./5076404.jpg');
-    
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  
     
     
 }
