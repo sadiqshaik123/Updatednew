@@ -863,36 +863,28 @@ h3.tittle{
         height: 1900px;
         background-size: cover;
         background-position: center;
-        
         padding: 20px;
-        
         background-size: 100% 100%;
     }
     .background-container2 {
-        height: 500px;
+        height: 800px;
         background-size: cover;
         background-position: center;
-        
         padding: 20px;
-        
         background-size: 100% 100%;
     }
     .background-container3 {
         height: 500px;
         background-size: cover;
         background-position: center;
-        
         padding: 20px;
-        
         background-size: 100% 100%;
     }
     .background-container4 {
         height: 600px;
         background-size: cover;
         background-position: center;
-        
         padding: 20px;
-        
         background-size: 100% 100%;
     }
     .background-about1 {
@@ -902,7 +894,6 @@ h3.tittle{
         color: #fff;
         text-align: center;
         padding: 20px;
-        
         background-size: 100% 100%;
     }
     .background-about2 {
